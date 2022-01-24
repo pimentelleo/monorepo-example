@@ -1,14 +1,16 @@
 module.exports = {
   apps: [
     {
-      script: 'npm start',
-      cwd: 'backend/',
+      script: 'npm',
+      args: 'start',
+      cwd: './backend/',
       name: 'Backend',
       watch: true
     },
     {
-      script: 'npm start',
-      cwd: 'frontend/',
+      script: 'npm',
+      args: 'start',
+      cwd: './frontend/',
       name: 'Frontend',
       watch: true
     }
