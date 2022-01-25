@@ -1,4 +1,4 @@
-const database = [{"id":1,"name":"Nadeen Tattam","email":"ntattam0@baidu.com","extension":"2175","birthDay":"2007-08-21","sector":"Business Development"},
+[{"id":1,"name":"Nadeen Tattam","email":"ntattam0@baidu.com","extension":"2175","birthDay":"2007-08-21","sector":"Business Development"},
 {"id":2,"name":"Caterina Cattroll","email":"ccattroll1@tumblr.com","extension":"622","birthDay":"1991-07-18","sector":"Legal"},
 {"id":3,"name":"Aretha Dobbin","email":"adobbin2@admin.ch","extension":"5761","birthDay":"2016-08-30","sector":"Accounting"},
 {"id":4,"name":"Karrie Jayme","email":"kjayme3@yellowbook.com","extension":"69022","birthDay":"1993-05-24","sector":"Research and Development"},
@@ -998,5 +998,3 @@ const database = [{"id":1,"name":"Nadeen Tattam","email":"ntattam0@baidu.com","e
 {"id":998,"name":"Adey Brocks","email":"abrocksrp@flickr.com","extension":"4331","birthDay":"1985-12-18","sector":"Legal"},
 {"id":999,"name":"Thornton Clacson","email":"tclacsonrq@nsw.gov.au","extension":"9","birthDay":"2003-11-07","sector":"Support"},
 {"id":1000,"name":"Sibby Neads","email":"sneadsrr@state.tx.us","extension":"3","birthDay":"1988-10-29","sector":"Research and Development"}]
-
-export.modules = database;
