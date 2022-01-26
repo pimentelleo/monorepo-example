@@ -1,5 +1,7 @@
-const apiUrl = 'http://localhost:3000'
-console.log("Hello world")
+const apiUrl = 'http://localhost:3000';
+
+console.log("Hello world");
+
 function getAniversariantes() {
   fetch(apiUrl)
   .then(data => {

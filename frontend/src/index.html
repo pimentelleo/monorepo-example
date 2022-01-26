@@ -1,10 +1,33 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
   <head>
-    <title>This is the title of the webpage!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inserir Funcionarios</title>
   </head>
+
   <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <form method="post">
+      <label for="mat">Numero de Matricula</label>
+      <input type="number" name="matricula" id="mat">
+      <br />
+      <label for="nome">Nome</label>
+      <input type="text" name="name" id="nome">
+      <br />
+      <label for="ram">Ramal</label>
+      <input type="number" name="ramal" id="ram">
+      <br />
+      <label for="mail">Email</label>
+      <input type="email" name="gmail" id="mail">
+      <br />
+      <label for="set">Setor</label>
+      <input type="text" name="setor" id="set">
+      <br />
+      <label for="birth">Data de Nascimento</label>
+      <input type="date" name="nascimento" id="birth">
+      <br />
+      <input type="submit" value="ENVIAR INFORMAÇÕES">
+    </form>
   </body>
-  <script src="script.js"></script>
 </html>
