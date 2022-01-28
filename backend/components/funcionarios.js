@@ -1,6 +1,6 @@
-const database = require('../database.js')
+// const database = require('../database.js')
 
-function getUsers(){
-  return database;
-}
-module.exports = getUsers();
+// function getUsers(){
+//   return database;
+// }
+// module.exports = getUsers();
