@@ -1,6 +1,7 @@
-// const database = require('../database.js')
+const database = require('../database.json')
 
-// function getUsers(){
-//   return database;
-// }
-// module.exports = getUsers();
+function getUsers(){
+    return database[1];
+}
+
+module.exports = getUsers();
