@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:3000'
+const apiUrl = 'https://localhost:3000/'
 const apiRoute = 'calc'
 function getCalculatorResult() {
   fetch(apiUrl+'/'+apiRoute)
@@ -14,7 +14,7 @@ function getCalculatorResult() {
   
 //  GET request using fetch()
 
-fetch("https://jsonplaceholder.typicode.com/users")
+fetch(apiUrl+"home?userId=a4c52257-2c6f-46f6-ae0b-2514df42be5d")
     .then(response => response.json())
     .then(json => {
         let li = `<tr><th>Name</th><th>Email</th></tr>`;
